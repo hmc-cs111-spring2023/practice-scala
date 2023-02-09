@@ -17,7 +17,7 @@ These are the parts of the assignment:
 5. Commit your code, push it to Github, and submit it on Gradescope.
 6. Feedback on another assignment.
 
-**Be sure to skim the whole document, before you start coding!\***
+**Be sure to skim the whole document, before you start coding!**
 
 ## Resources
 
@@ -25,7 +25,6 @@ You will need to explore a little bit of Scala on your own. In fact, that's the 
 point of this assignment :). Here are some general resources on learning Scala that might
 help:
 
-- _Scala for the Impatient_ (one of the recommended books for the course)
 - [Scala learning overview](http://www.scala-lang.org/documentation/)
 - [Scala style guide](http://docs.scala-lang.org/style/)
 - [Scala cheatsheet](http://docs.scala-lang.org/cheatsheets/)
@@ -66,7 +65,7 @@ troubles and we aren't able to resolve them quickly, one of the other options is
 
 ### On your own machine, using your own installation of Scala
 
-You should be able to download and install [Scala](https://www.scala-lang.org/download/)
+You can also download and install [Scala](https://www.scala-lang.org/download/)
 and [sbt](https://www.scala-sbt.org/download.html) on your own machine.
 
 We are using **Scala version 3.2.2** and **sbt version 1.8.2**.
@@ -82,7 +81,7 @@ one of the other two versions if you're not able to make quick progress.
 ### `collatz`
 
 In the file `src/main/collatz/Collatz.scala`, write a function named `collatz`, which
-takes one positive integer argument. The Racket function should compute the following
+takes one positive integer argument. The function should compute the following
 mathematical function:
 
 $$
@@ -105,7 +104,8 @@ function. Here are a few input-output pairs that are good to test:
 ### `collatzCount`
 
 In the file `src/main/collatz/Collatz.scala`, write a **recursive** function named `collatzCount`, which
-takes one positive integer argument. The function should return the smallest number of times that collatz (your previous function) must be called, when given an input of `n`, to arrive at a value of `1`.
+takes one positive integer argument. The function should return the smallest number of times that `collatz`
+(your previous function) must be called, when given an input of `n`, to arrive at a value of `1`.
 
 For example, consider the expression `(collatz 3)`. Let's use the symbol `==>` to mean
 "evaluates to." Then
@@ -195,7 +195,7 @@ Here are a few notes and suggestions:
 
 ## Part 3: Fluency
 
-The file `src/main/images/Image.scala` contains an implement of a simple image-processing
+The file `src/main/images/Image.scala` contains an implementation of a simple image-processing
 library. The file `src/main/images/Program.scala` is a program that uses the library.
 These files are ports from the non-fluent version we saw in Python. Modify both files so
 that we can use the library as described in the comment at the bottom of `Program.scala`.
