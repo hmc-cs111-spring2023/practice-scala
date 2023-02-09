@@ -2,7 +2,6 @@
 .bsp/
 .metals/
 .vscode/
-.github/
 project/
 target/
 output.png
