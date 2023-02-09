@@ -101,6 +101,13 @@ function. Here are a few input-output pairs that are good to test:
 - $\text{collatz}(42) = 21$
 - $\text{collatz}(101) = 304$
 
+**Note:** If you want to use VS Code's GUI test runner, I was able to get it working by doing the following:
+1. Run `sbt test`.
+1. Quite `sbt` and the terminal. (I think `sbt` can't be running at the same time as the GUI tries to run tests).
+1. Open the GUI test pane, and try running the tests.
+
+This feature seems to be buggy, though, especially in Codespaces.
+
 ### `collatzCount`
 
 In the file `src/main/collatz/Collatz.scala`, write a **recursive** function named `collatzCount`, which
