@@ -2,6 +2,9 @@
 .bsp/
 .metals/
 .vscode/
-project/
+project/.bloop
+project/target
+project/metals.sbt
+project/project
 target/
 output.png
