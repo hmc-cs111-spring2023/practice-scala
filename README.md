@@ -233,7 +233,8 @@ as you have for previous assignments.
 
 ## Peer-review other people's work
 
-After the submission deadline, I will post critique partners. Each person will add
+After the submission deadline, I will post [critique partners](https://github.com/hmc-cs111-spring2023/practice-scala/wiki/Peer-review). 
+Each person will add
 feedback to someone else's work; though that might mean that some people receive multiple
 critiques. You should look through their solutions to each of the parts, as well as their
 `scala-thoughts.md` file. You don't need to comment on everything, but find some
